@@ -12,8 +12,8 @@ namespace GrammarTester
 
         static void Main(string[] args)
         {
-            rules = new List<string>() { "SA", "SB", "AAx", "AyB", "BBz", "Bz" };
-            var input = "yzxxx";
+            rules = new List<string>() { "SA", "Sa", "ABb", "Ab", "BcC", "Bc", "CS", "Cd" };
+            var input = "cdbbd";
             var word = "S";
 
             if (test(input, word))
@@ -30,7 +30,7 @@ namespace GrammarTester
 
         private static bool test(string input, string word)
         {
-            char stateRecurse = '\0';
+            var stateRecurse = new char();
 
             if (word.Equals(input))
                 return true;
