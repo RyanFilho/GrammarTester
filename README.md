@@ -1,5 +1,7 @@
 # GrammarTester
 
-## We have two application to test if a word belongs to a grammar.
-A console application developed in C# .NET and a web application(still under development) developed in javascript.
+### It is an application to test if a word belongs to a formal grammar. 
+A console application developed in C# .NET.
 Developed to help students identify formal grammars.
+
+
